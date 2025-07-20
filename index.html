@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Site en cours de construction</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #1e1e2f;
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      opacity: 0.8;
+    }
+
+    .gear {
+      width: 60px;
+      height: 60px;
+      border: 6px solid #ffffff;
+      border-top: 6px solid #ffce00;
+      border-radius: 50%;
+      animation: spin 2s linear infinite;
+      margin-bottom: 2rem;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="gear"></div>
+  <h1>Site en cours de construction</h1>
+  <p>Nous travaillons dur pour finaliser notre site. Revenez bientôt !</p>
+
+  <div class="footer">© 2025 - VotreNom ou NomDeProjet</div>
+
+  <script>
+    // Exemple JS : animation console
+    console.log("🔧 Le site est en construction !");
+  </script>
+</body>
+</html>
